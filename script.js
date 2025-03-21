@@ -1,10 +1,15 @@
 const slider = document.querySelector('.slider');
 const slides = document.querySelectorAll('.slide');
 let counter = 0;
-const slideWidth = slides[0].clientWidth;
+let slideWidth = slides[0].clientWidth;
 const slideCount = slides.length;
+let intervalId;
 
-// Función para avanzar el slider
+function updateSlideWidth() {
+    slideWidth = slides[0].clientWidth;
+    slider.style.transform = `translateX(${-slideWidth * counter}px)`;
+}
+
 function nextSlide() {
     counter++;
     if (counter >= slideCount) {
@@ -13,14 +18,18 @@ function nextSlide() {
     slider.style.transform = `translateX(${-slideWidth * counter}px)`;
 }
 
-// Iniciar el intervalo para el desplazamiento automático
-let intervalId = setInterval(nextSlide, 4000); // Cambia cada 5000 milisegundos (5 segundos)
+function startInterval() {
+    intervalId = setInterval(nextSlide, 4000);
+}
 
-// Opcional: Pausar el desplazamiento automático al hacer hover sobre el slider
+startInterval();
+
 slider.addEventListener('mouseenter', () => {
     clearInterval(intervalId);
 });
 
 slider.addEventListener('mouseleave', () => {
-    intervalId = setInterval(nextSlide, 4000);
+    startInterval();
 });
+
+window.addEventListener('resize', updateSlideWidth);
