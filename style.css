@@ -42,17 +42,34 @@ body {
     max-width: 100%; /* Imágenes responsivas */
 }
 
+.slide h6 {
+    color: white; /* Color blanco para los nombres */
+    margin-bottom: 10px; /* Espacio entre el nombre y las estrellas */
+    font-size: 1.1em; /* Tamaño de la fuente (ajusta según sea necesario) */
+    font-weight: bold; /* Opcional: Negrita */
+}
+
 .slide p {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 20px;
     border-radius: 8px;
     font-size: 1.1em;
+    font-family: 'Espletus Sans', sans-serif; /* Aplica la tipografía */
 }
 
 .stars {
     color: #ffcc00;
     margin-bottom: 15px;
     font-size: 1.2em;
+}
+
+/* Tipografía "Espletus Sans" */
+@font-face {
+    font-family: 'Espletus Sans';
+    src: url('ruta/a/EspletusSans-Regular.woff2') format('woff2'),
+         url('ruta/a/EspletusSans-Regular.woff') format('woff'); /* Agrega otros formatos si es necesario */
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Media Queries para Responsive Design */
