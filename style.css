@@ -54,22 +54,13 @@ body {
     padding: 20px;
     border-radius: 8px;
     font-size: 1.1em;
-    font-family: 'Espletus Sans', sans-serif; /* Aplica la tipografía */
+    font-family: 'Expletus Sans', sans-serif; /* Aplica la tipografía */
 }
 
 .stars {
     color: #ffcc00;
     margin-bottom: 15px;
     font-size: 1.2em;
-}
-
-/* Tipografía "Espletus Sans" */
-@font-face {
-    font-family: 'Espletus Sans';
-    src: url('ruta/a/EspletusSans-Regular.woff2') format('woff2'),
-         url('ruta/a/EspletusSans-Regular.woff') format('woff'); /* Agrega otros formatos si es necesario */
-    font-weight: normal;
-    font-style: normal;
 }
 
 /* Media Queries para Responsive Design */
