@@ -57,7 +57,7 @@ Puedes ver un ejemplo de cómo se vería el slider terminado aqui: [https://tech
 
 ## Créditos
 
-Este slider fue creado por [Francisco Weishein/TechAssistPC].
+Este slider fue creado por [Francisco Weishein / TechAssistPC].
 
 ## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más detalles. [https://github.com/TechAssistPC/slider_testimony/blob/main/LICENSE]
