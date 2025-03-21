@@ -1,78 +1,76 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a2e;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent; /* Fondo transparente */
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .slider-container {
-    width: 90%;
-    max-width: 600px;
-    margin: 40px 0;
-    overflow: hidden;
-    position: relative;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 600px;
+  margin: 40px 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  background-color: transparent; /* Fondo transparente */
 }
 
 .slider {
-    display: flex;
-    transition: transform 0.6s ease-in-out;
+  display: flex;
+  transition: transform 0.6s ease-in-out;
 }
 
 .slide {
-    min-width: 100%;
-    text-align: center;
-    padding: 40px 20px;
+  min-width: 100%;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .slide img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .slide p {
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 20px;
-    border-radius: 8px;
-    font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
 }
 
 .stars {
-    color: #ffcc00;
-    margin-bottom: 15px;
-    font-size: 1.2em;
+  color: #ffcc00;
+  margin-bottom: 15px;
+  font-size: 1.2em;
 }
 
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.08);
-    border: none;
-    padding: 12px 24px;
-    cursor: pointer;
-    color: #e0e0e0;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.08);
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  color: #e0e0e0;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
-@media (max-width: 600px) {
-    .slider-container {
-        width: 95%;
-        padding: 30px;
-    }
-}
+@media
