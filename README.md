@@ -1,13 +1,24 @@
-# slider_testimony
-¿Cuál es el objetivo del problema? Recopilar y presentar las opiniones de los clientes, y proveer una representación visual de la satisfacción general.
-
 # Slider de Testimonios Personalizable
 
-Este proyecto proporciona un slider de testimonios personalizable que puedes integrar fácilmente en tu sitio web.
+**Objetivo:** Este proyecto tiene como objetivo principal recopilar y presentar las opiniones de los clientes de una manera visualmente atractiva y fácil de usar, proporcionando una representación clara de la satisfacción general.
 
-## Motivo de Creación
+**Problema y Solución:** La creación de este slider surgió de las limitaciones encontradas al utilizar plataformas de desarrollo no-code y low-code. Aunque estas plataformas ofrecen una gran facilidad de uso, a menudo restringen la capacidad de incorporar funcionalidades personalizadas como sliders de testimonios.
 
-Este slider fue creado para mostrar testimonios de clientes de una manera atractiva y fácil de usar. Su objetivo es proporcionar una herramienta simple que se pueda personalizar para adaptarse a diferentes estilos y necesidades.
+Para superar esta barrera, desarrollé este slider utilizando HTML, CSS y JavaScript puros. Esta solución permite crear un componente totalmente personalizado que se adapta a las necesidades específicas del proyecto, tanto en funcionalidad como en diseño. Además, al alojar el slider en GitHub y permitir su importación mediante un iframe, se convierte en una herramienta versátil que se puede integrar en cualquier sitio web, independientemente de la plataforma de creación utilizada.
+
+**En resumen, este slider fue creado para:**
+
+* Recopilar y presentar las opiniones de los clientes de manera efectiva.
+* Proveer una representación visual clara de la satisfacción general.
+* Superar las limitaciones de las plataformas de creación de sitios web no-code/low-code que impiden la incorporación de sliders personalizados.
+* Ofrecer una solución versátil y personalizable para la presentación de testimonios, que se puede integrar fácilmente en cualquier sitio web.
+
+**Puntos clave:**
+
+* Se enfoca en las limitaciones de no-code/low-code.
+* Se explica cómo el proyecto supera esas limitaciones.
+* Se resalta la versatilidad y facilidad de integración mediante iframes.
+* Se definen claramente los objetivos del problema.
 
 ## Instrucciones de Uso
 
