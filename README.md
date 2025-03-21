@@ -53,12 +53,11 @@ Este slider fue creado para mostrar testimonios de clientes de una manera atract
 
 ## Ejemplo
 
-Puedes ver un ejemplo de cómo se vería el slider terminado aqui: [].
+Puedes ver un ejemplo de cómo se vería el slider terminado aqui: [https://techassistpc.github.io/slider_testimony/].
 
 ## Créditos
 
-Este slider fue creado por [Tu Nombre/Nombre de tu Organización].
+Este slider fue creado por [Francisco Weishein/TechAssistPC].
 
 ## Licencia
-
-Este proyecto está bajo la licencia [Tipo de Licencia].
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
